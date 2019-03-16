@@ -1,0 +1,53 @@
+
+.grid_cell{
+    text-align: center;
+    height: 30px;
+    width: 35px;
+    border: 1px solid grey;
+}
+.cell_unknown{
+    text-align: center;
+    background-color: grey;
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+.cell_nothing{
+    text-align: center;
+    background-color: aquamarine;
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+.cell_mine{
+    text-align: center;
+    background-color: crimson;
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+.cell_near_mine{
+    text-align: center;
+    background-color: orange;
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+.cell_shovel{
+    text-align: center;
+    background-color: bisque;
+    height: 30px;
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+#menu,#grid_container,#grid, div{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+}

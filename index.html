@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <style type="text/css">
+    </style>
+    <script src="scripts/jquery-2.0.3.min.js"></script>
+    <script src="scripts/jquery-2.0.3.js"></script>
+    <script src="scripts/index.js"></script>
+    <script type="text/javascript">
+    </script>
+</head>
+<body>
+    <div>Info: <div id="message_echo" style="display: inline" ></div></div>
+    <div id="shovel_num">Left Shovels: 0</div>
+    <form id="menu">
+        <input type="hidden" name="type" id="type" value="start">
+        <label for="rows">Rows:</label><input name="rows" id="rows" type="text" value="10"/>
+        <label for="columns">Columns:</label><input name="columns" id="columns" type="text" value="10"/>
+        <label for="mines">Mines:</label><input name="mines" id="mines" type="text" value="10"/>
+        <input name="start" id="start" value="Start" type="button" onclick="start_new_game()">
+    </form>
+    <div id="grid_container">
+        <table id="grid" border="1"></table>
+    </div>
+</body>
+</html>
